@@ -45,20 +45,19 @@ This final year project focuses on Autonomous Vehicle Object Detection and Traje
    ```
 
 2. Download the yolov3.weights and yolo3.cfg files
-   '''
    https://huggingface.co/spaces/Epitech/Scarecrow/resolve/main/yolov3.weights
-   '''
+   https://www.kaggle.com/datasets/ravi02516/trained-weights-and-cfg?select=yolov3.cfg
 
-3. Run the CARLA Simulator:
+4. Run the CARLA Simulator:
    ```
    cd CARLA_0.9.11
    ./CarlaUE4.exe
    ./CarlaUE4 -dx11
    ```
 
-4. In a new terminal, navigate to the PythonAPI examples directory and run the script:
+5. In a new terminal, navigate to the PythonAPI examples directory and run the script:
    ```
-   cd /path/to/carla/PythonAPI/examples
+   cd CARLA_0.9.11/PythonAPI/examples
    python object_detection.py
    ```
 
