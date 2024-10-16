@@ -18,18 +18,18 @@ This final year project focuses on Autonomous Vehicle Object Detection and Traje
 
 ### Steps:
 
-1. Clone the CARLA Simulator repository:
+1. Download the required version of the CARLA Simulator ZIP file for Windows:
    ```
-   git clone https://github.com/carla-simulator/carla.git
-   cd carla
+   https://github.com/carla-simulator/carla/releases
+   cd CARLA_0.9.11
    ```
 
 2. Install CARLA_0.9.11 following the official documentation.
 
 3. Clone this project repository:
    ```
-   git clone https://github.com/your-username/autonomous-vehicle-project.git
-   cd autonomous-vehicle-project
+   https://github.com/ROBERT-ADDO-ASANTE-DARKO/Autonomous-Vehicle-Object-Detection-and-Trajectory-Planning-using-YOLOv3-and-CARLA-Simulator.git
+   cd Autonomous-Vehicle-Object-Detection-and-Trajectory-Planning-using-YOLOv3-and-CARLA-Simulator
    ```
 
 4. Install the required Python libraries:
@@ -41,16 +41,22 @@ This final year project focuses on Autonomous Vehicle Object Detection and Traje
 
 1. Copy the `object_detection.py` file to the CARLA PythonAPI examples directory:
    ```
-   cp object_detection.py /path/to/carla/PythonAPI/examples/
+   cp object_detection.py CARLA_0.9.11/PythonAPI/examples/
    ```
 
-2. Run the CARLA Simulator:
+2. Download the yolov3.weights and yolo3.cfg files
+   '''
+   https://huggingface.co/spaces/Epitech/Scarecrow/resolve/main/yolov3.weights
+   '''
+
+3. Run the CARLA Simulator:
    ```
-   cd /path/to/carla
-   ./CarlaUE4.sh
+   cd CARLA_0.9.11
+   ./CarlaUE4.exe
+   ./CarlaUE4 -dx11
    ```
 
-3. In a new terminal, navigate to the PythonAPI examples directory and run the script:
+4. In a new terminal, navigate to the PythonAPI examples directory and run the script:
    ```
    cd /path/to/carla/PythonAPI/examples
    python object_detection.py
