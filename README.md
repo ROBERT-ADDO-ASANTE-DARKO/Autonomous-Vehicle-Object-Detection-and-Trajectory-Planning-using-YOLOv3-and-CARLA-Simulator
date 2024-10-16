@@ -19,20 +19,20 @@ This final year project focuses on Autonomous Vehicle Object Detection and Traje
 ### Steps:
 
 1. Download the required version of the CARLA Simulator ZIP file for Windows:
-   ```
    https://github.com/carla-simulator/carla/releases
+   ```
    cd CARLA_0.9.11
    ```
 
-2. Install CARLA_0.9.11 following the official documentation.
+3. Install CARLA_0.9.11 following the official documentation.
 
-3. Clone this project repository:
+4. Clone this project repository:
    ```
    https://github.com/ROBERT-ADDO-ASANTE-DARKO/Autonomous-Vehicle-Object-Detection-and-Trajectory-Planning-using-YOLOv3-and-CARLA-Simulator.git
    cd Autonomous-Vehicle-Object-Detection-and-Trajectory-Planning-using-YOLOv3-and-CARLA-Simulator
    ```
 
-4. Install the required Python libraries:
+5. Install the required Python libraries:
    ```
    pip install -r requirements.txt
    ```
