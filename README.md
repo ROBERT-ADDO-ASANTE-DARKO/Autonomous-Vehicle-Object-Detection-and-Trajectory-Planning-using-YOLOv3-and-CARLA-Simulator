@@ -77,7 +77,7 @@ To monitor and track the YOLOv3 model performance using TensorBoard:
 - `object_detection.py`: Main Python script for object detection and trajectory planning
 - `requirements.txt`: List of required Python libraries
 - `models/`: Directory containing trained YOLOv3 model weights
-- `config/`: Configuration files for YOLOv3 and trajectory planning
+- `config/`: Directory containing trained YOLOv3 model configurations
 - `logs/`: TensorBoard log files for performance monitoring
 
 ## Contributing
